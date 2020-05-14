@@ -1,0 +1,60 @@
+.parallax {
+    background-image: url('../img/background-blur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+.opacity-dark {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.title-logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.dancing-font {
+    font-family: 'Dancing Script', cursive;
+}
+
+.sources-serif-font {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 10px #000;
+}
+
+.buttonTop {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: #e1002f;
+    transition: all 0.3s;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.buttonTop:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #9c0022;
+}
+
+.buttonTop-hidden {
+    opacity: 0;
+    transform: translate3d(100px, 0px, 0px);
+}
+
+.buttonTop-visible {
+    opacity: 1;
+    transition: all 0.3s;
+}
