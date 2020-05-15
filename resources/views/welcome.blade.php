@@ -16,7 +16,7 @@
         <!-- bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
-    <body style="height: 1000px">
+    <body>
 
         <div class="fixed-top opacity-dark" id="navmenu">
             <div class="d-none d-md-flex justify-content-center align-items-center pt-3" id="show">
@@ -41,13 +41,13 @@
                             <a class="nav-link click-scroll" href="#sobre">Sobre</a>
                         </li>
                         <li class="active nav-item m-2 lead">
+                            <a class="nav-link click-scroll" href="#contato">Contato</a>
+                        </li>
+                        <li class="active nav-item m-2 lead">
                             <a class="nav-link click-scroll" href="#comida">Comida</a>
                         </li>
                         <li class="active nav-item m-2 lead">
                             <a class="nav-link click-scroll" href="#fornecedores">Fornecedores</a>
-                        </li>
-                        <li class="active nav-item m-2 lead">
-                            <a class="nav-link click-scroll" href="#contato">Contato</a>
                         </li>
                         <li class="nav-item m-2 lead">
                             <a class="nav-link click-scroll" href="{{ route('login') }}">Controle</a>
@@ -62,11 +62,56 @@
             </div>
         </div>
 
-        <div class="container mt-5 shadow" id="sobre">
+        <div class="container mt-5" id="sobre">
             <p style="font-size: 25px" class="mt-5 sources-serif-font">Conheça um pouco mais sobre <b class="text-wine font-italic">Yakizakana.</b><br/>O melhor em comida japonesa do Brasil.</p>
+            <div class="row border">
+                <div class="col-12 col-md-12 col-lg-3 text-center">
+                    <img class="img-fluid my-4" src="img/yakizakana.png" width="150" heigth="150" alt="Missao">
+                    <div class="p-3">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptas cum nam? Cumque enim exercitationem nesciunt, ab quis nisi provident adipisci quisquam nobis.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 text-center">
+                    <img class="img-fluid" src="img/missao.png" width="150" heigth="150" alt="Missao">
+                    <div class="p-3">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptas cum nam? Cumque enim exercitationem nesciunt, ab quis nisi provident adipisci quisquam nobis.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 text-center">
+                    <img class="img-fluid" src="img/visao.png" width="150" heigth="150" alt="Visao">
+                    <div class="p-3">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptas cum nam? Cumque enim exercitationem nesciunt, ab quis nisi provident adipisci quisquam nobis.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 text-center">
+                    <img class="img-fluid" src="img/valores.png" width="150" heigth="150" alt="Valores">
+                    <div class="p-3">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptas cum nam? Cumque enim exercitationem nesciunt, ab quis nisi provident adipisci quisquam nobis.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div class="bg-dark d-flex justify-content-center align-items-center flex-column py-4">
+            <div class="d-flex justify-content-center align-items-center mb-2">
+                <a class="d-flex text-reset text-decoration-none" href="{{ route('welcome') }}">
+                    <h3 class="mr-3 font-weight-bolder text-wine">焼き魚</h3>
+                    <h3 class="text-white sources-serif-font">Yakizakana</h3>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center flex-wrap">
+                <a class="mx-2 text-decoration-none text-white click-scroll" href="#home">Home</a>
+                <a class="mx-2 text-decoration-none text-white click-scroll" href="#sobre">Sobre</a>
+                <a class="mx-2 text-decoration-none text-white click-scroll" href="#contato">Contato</a>
+                <a class="mx-2 text-decoration-none text-white click-scroll" href="#comida">Comida</a>
+                <a class="mx-2 text-decoration-none text-white click-scroll" href="#fornecedores">Fornecedores</a>
+            </div>
+        </div>
+        <div class="container-fluid p-2" style="background: #000">
+            <div class="container mt-3">
+                <p class="text-muted">© 2020 Tanaka. All Rights Reserved. Terms of use and Privacy Policy </p>
+            </div>
+        </div>
 
         <a href="#home" class="buttonTop-hidden buttonTop shadow click-scroll" id="buttonTop">Subir!</a>
 
