@@ -10,6 +10,10 @@
     background-color: rgba(0, 0, 0, 0.5)
 }
 
+.text-wine {
+    color: #e1002f;
+}
+
 .title-logo {
     font-size: 40px;
     font-weight: bold;
@@ -51,7 +55,7 @@
 
 .buttonTop-hidden {
     opacity: 0;
-    transform: translate3d(100px, 0px, 0px);
+    transform: translate3d(100px, 100px, 0px);
 }
 
 .buttonTop-visible {

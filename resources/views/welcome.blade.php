@@ -22,13 +22,13 @@
             <div class="d-none d-md-flex justify-content-center align-items-center pt-3" id="show">
                 <div>
                     <a class="d-flex text-reset text-decoration-none" href="{{ route('welcome') }}">
-                        <h3 class="mr-3 font-weight-bolder" style="color: #e1002f">焼き魚</h3>
+                        <h3 class="mr-3 font-weight-bolder text-wine">焼き魚</h3>
                         <h3 class="text-white sources-serif-font">Yakizakana</h3>
                     </a>
                 </div>
             </div>
             <nav class="navbar navbar-expand-md navbar-dark">
-                <a class="d-block d-md-none sources-serif-font navbar-brand" href="#"><span class="mr-3 font-weight-bolder" style="color: #e1002f">焼き魚</span>Yakizakana</a>
+                <a class="d-block d-md-none sources-serif-font navbar-brand" href="#"><span class="mr-3 font-weight-bolder text-wine">焼き魚</span>Yakizakana</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -41,7 +41,7 @@
                             <a class="nav-link click-scroll" href="#sobre">Sobre</a>
                         </li>
                         <li class="active nav-item m-2 lead">
-                            <a class="nav-link click-scroll" href="#pratos">Pratos</a>
+                            <a class="nav-link click-scroll" href="#comida">Comida</a>
                         </li>
                         <li class="active nav-item m-2 lead">
                             <a class="nav-link click-scroll" href="#fornecedores">Fornecedores</a>
@@ -61,9 +61,9 @@
             <p class="text-white text-shadow" style="font-size: 20px">O melhor da culinário oriental a<b> seu dispor!</b></p>
             </div>
         </div>
-        <div class="vh-100" id="sobre">
-            <h3 class="mt-5 dancing-font title-logo text-shadow">Bem vindo à <span class="sources-serif-font">Yakizakana!</span></h3>
-            <p class="text-white text-shadow" style="font-size: 20px">O melhor da culinário oriental a<b> seu dispor!</b></p>
+
+        <div class="container mt-5 shadow" id="sobre">
+            <p style="font-size: 25px" class="mt-5 sources-serif-font">Conheça um pouco mais sobre <b class="text-wine font-italic">Yakizakana.</b><br/>O melhor em comida japonesa do Brasil.</p>
             </div>
         </div>
 
