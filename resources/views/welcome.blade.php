@@ -44,10 +44,10 @@
                             <a class="nav-link click-scroll" href="#contato">Contato</a>
                         </li>
                         <li class="active nav-item m-2 lead">
-                            <a class="nav-link click-scroll" href="#comida">Comida</a>
+                            <a class="nav-link click-scroll" href="{{ route('cardapio') }}">Cardápio</a>
                         </li>
                         <li class="active nav-item m-2 lead">
-                            <a class="nav-link click-scroll" href="#fornecedores">Fornecedores</a>
+                            <a class="nav-link click-scroll" href="{{ route('fornecedores') }}">Fornecedores</a>
                         </li>
                         <li class="nav-item m-2 lead">
                             <a class="nav-link click-scroll" href="{{ route('login') }}">Controle</a>
@@ -56,37 +56,55 @@
                 </div>
             </nav>
         </div>
-        <div class="vh-100 parallax text-center d-flex flex-column justify-content-center align-items-center" id="home">
-            <h3 class="mt-5 dancing-font title-logo text-shadow">Bem vindo à <span class="sources-serif-font">Yakizakana!</span></h3>
-            <p class="text-white text-shadow" style="font-size: 20px">O melhor da culinário oriental a<b> seu dispor!</b></p>
-            </div>
+        <div class="vh-100 parallax text-center d-flex flex-column justify-content-center align-items-center" id="home" style="background-image: url('../img/background-blur.jpg');">
+            <h3 class="mt-5 mx-2 dancing-font title-logo text-shadow">Bem vindo à <span class="sources-serif-font">Yakizakana!</span></h3>
+            <p class="text-white text-shadow mx-1" style="font-size: 20px">O melhor da culinário oriental a<b> seu dispor!</b></p>
         </div>
 
-        <div class="container mt-5" id="sobre">
+        <div class="container my-5" id="sobre">
             <p style="font-size: 25px" class="mt-5 sources-serif-font">Conheça um pouco mais sobre <b class="text-wine font-italic">Yakizakana.</b><br/>O melhor em comida japonesa do Brasil.</p>
-            <div class="row border">
+            <div class="row border my-5 shadow-sm rounded">
                 <div class="col-12 col-md-12 col-lg-3 text-center">
                     <img class="img-fluid my-4" src="img/yakizakana.png" width="150" heigth="150" alt="Missao">
-                    <div class="p-3">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptas cum nam? Cumque enim exercitationem nesciunt, ab quis nisi provident adipisci quisquam nobis.</p>
+                    <div class="p-1">
+                        <h5 class="border-bottom pb-3">Por que comida japonesa?</h5>
+                        <ul class="text-left mt-3">
+                            <li class="border-bottom"><p>Inviabilidade e dificil acesso.</p></li>
+                            <li class="border-bottom"><p>Culinaria e cultira difrente.</p></li>
+                            <li class="border-bottom"><p>Evidencia no mercado.</p></li>
+                            <li class="border-bottom"><p>Curiosidade em conhecer.</p></li>
+                            <li class="border-bottom"><p>Culinaria saudavel.</p></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-3 text-center">
                     <img class="img-fluid" src="img/missao.png" width="150" heigth="150" alt="Missao">
                     <div class="p-3">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptas cum nam? Cumque enim exercitationem nesciunt, ab quis nisi provident adipisci quisquam nobis.</p>
+                        <ul class="text-left">
+                            <li class="border-bottom"><p>Trazer mais acessibilidade a culinaria oriental.</p></li>
+                            <li class="border-bottom"><p>Atingir um publico maior.</p></li>
+                            <li class="border-bottom"><p>Promover uma inovacao na culinaria Brasileira</p></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-3 text-center">
                     <img class="img-fluid" src="img/visao.png" width="150" heigth="150" alt="Visao">
                     <div class="p-3">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptas cum nam? Cumque enim exercitationem nesciunt, ab quis nisi provident adipisci quisquam nobis.</p>
+                        <ul class="text-left">
+                            <li class="border-bottom"><p>Se <b>tornar referência</b>, ser a <b>maior</b> e <b>melhor</b> empresa no ramo alimentício, com foco em <b>comida japonesa.</b></p></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-3 text-center">
                     <img class="img-fluid" src="img/valores.png" width="150" heigth="150" alt="Valores">
                     <div class="p-3">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptas cum nam? Cumque enim exercitationem nesciunt, ab quis nisi provident adipisci quisquam nobis.</p>
+                        <ul class="text-left">
+                            <li class="border-bottom"><p>Diversidade.</p></li>
+                            <li class="border-bottom"><p>Confianca.</p></li>
+                            <li class="border-bottom"><p>Responsabilidade.</p></li>
+                            <li class="border-bottom"><p>Integridade.</p></li>
+                            <li class="border-bottom"><p>Simplicidade e acessibilidade.</p></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -109,7 +127,7 @@
         </div>
         <div class="container-fluid p-2" style="background: #000">
             <div class="container mt-3">
-                <p class="text-muted">© 2020 Tanaka. All Rights Reserved. Terms of use and Privacy Policy </p>
+                <p class="text-muted">© 2020 Yakizakana. Todos os direitos reservados. Termos de uso e politica de privacidade </p>
             </div>
         </div>
 

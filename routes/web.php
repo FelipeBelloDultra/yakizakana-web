@@ -11,9 +11,21 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
+
+
+Route::get('/cardapio', function () {
+    return view('cardapio');
+})->name('cardapio');
+
+
+Route::get('/fornecedores', function () {
+    return view('fornecedores');
+})->name('fornecedores');
+
 
 Auth::routes();
 
