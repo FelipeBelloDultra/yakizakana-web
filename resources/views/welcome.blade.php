@@ -21,7 +21,7 @@
         <div class="fixed-top opacity-dark" id="navmenu">
             <div class="d-none d-md-flex justify-content-center align-items-center pt-3" id="show">
                 <div>
-                    <a class="d-flex text-reset text-decoration-none" href="{{ route('welcome') }}">
+                    <a class="d-flex text-reset text-decoration-none user-select-none" href="{{ route('welcome') }}">
                         <h3 class="mr-3 font-weight-bolder text-wine">焼き魚</h3>
                         <h3 class="text-white sources-serif-font">Yakizakana</h3>
                     </a>
@@ -56,7 +56,7 @@
                 </div>
             </nav>
         </div>
-        <div class="vh-100 parallax text-center d-flex flex-column justify-content-center align-items-center" id="topo" style="background-image: url('../img/background-blur.jpg');">
+        <div class="vh-100 parallax text-center d-flex flex-column justify-content-center align-items-center user-select-none" id="topo" style="background-image: url('../img/background-blur.jpg');">
             <h3 class="mt-5 mx-2 dancing-font title-logo text-shadow" id="home">Bem vindo à <span class="sources-serif-font">Yakizakana!</span></h3>
             <p class="text-white text-shadow mx-1" style="font-size: 20px">O melhor da culinário oriental a<b> seu dispor!</b></p>
         </div>
@@ -69,7 +69,7 @@
                     <div class="p-1">
                         <h5 class="border-bottom pb-3">Por que comida japonesa?</h5>
                         <ul class="text-left mt-3">
-                            <li class="border-bottom"><p>Inviabilidade e dificil acesso.</p></li>
+                            <li class="border-bottom"><p>Inviabilidade.</p></li>
                             <li class="border-bottom"><p>Culinaria e cultira difrente.</p></li>
                             <li class="border-bottom"><p>Evidencia no mercado.</p></li>
                             <li class="border-bottom"><p>Curiosidade em conhecer.</p></li>
@@ -107,6 +107,18 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="container border my-5 rounded" id="contato">
+            <div class="col-12 col-md-7 my-5 ml-auto shadow-sm">
+                <h1>Contato 1</h1>
+            </div>
+            <div class="col-12 col-md-7 my-5 mr-auto shadow-sm">
+                <h1>Contato 2</h1>
+            </div>
+            <div class="col-12 col-md-7 my-5 ml-auto shadow-sm">
+                <h1>Contato 3</h1>
             </div>
         </div>
 
